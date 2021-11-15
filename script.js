@@ -49,9 +49,9 @@ function handleClick(e) {
 
 function endGame(draw) {
   if (draw) {
-    winningMessageTextElement.innerText = 'Draw!'
+    winningMessageTextElement.innerText = 'The Game was a Draw!'
   } else {
-    winningMessageTextElement.innerText = `${circleTurn ? "O's" : "X's"} Wins!`
+    winningMessageTextElement.innerText = `Congratulations ${circleTurn ? "O's" : "X's"} Wins The Game!`
   }
   winningMessageElement.classList.add('show')
 }
