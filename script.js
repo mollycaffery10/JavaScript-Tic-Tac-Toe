@@ -1,5 +1,5 @@
-const A_CLASS = 'a'
-const B_CLASS = 'b'
+const A_CLASS = 'X'
+const B_CLASS = 'O'
 const WINNING_COMBINATIONS = [
   [0, 1, 2],
   [3, 4, 5],
@@ -52,7 +52,7 @@ function endGame(draw) {
   if (draw) {
     winningMessageTextElement.innerText = 'The Game was a Draw!'
   } else {
-    winningMessageTextElement.innerText = `Congratulations ${circleTurn ? "B's" : "A's"} Wins The Game!`
+    winningMessageTextElement.innerText = `Congratulations ${circleTurn ? "O's" : "X's"} Wins The Game!`
   }
   winningMessageElement.classList.add('show')
 }
