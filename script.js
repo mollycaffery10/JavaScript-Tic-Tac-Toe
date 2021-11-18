@@ -8,7 +8,8 @@ const WINNING_COMBINATIONS = [
   [1, 4, 7],
   [2, 5, 8],
   [0, 4, 8],
-  [2, 4, 6]
+  [2, 4, 6],
+  [0, 2, 6, 8]
 ]
 const cellElements = document.querySelectorAll('[data-cell]')
 const board = document.getElementById('board')
